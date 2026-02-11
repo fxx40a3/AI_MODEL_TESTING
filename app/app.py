@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.get('/')
 def home():
-    return 'Flask is running (AI_MODEL_TESTING)! testing 1 s'
+    return 'Flask is running (AI_MODEL_TESTING)! testing 1 s we'
 
 @app.get('/health')
 def health():
